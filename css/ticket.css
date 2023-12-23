@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-image: url(../images/ticket.jpg);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     box-sizing: border-box;
+    background-color: rgba(179, 152, 3, 0.26);
+     border-radius: 10px;
+      padding: 20px 0 0 10px;
+      margin-left: 50px;
+      text-align: start;
+      backdrop-filter: blur(2px);
+      margin: 0 30%;
+      color: rgba(253, 253, 253, 0.671);
+}
+.book-ticket .booknow{
+    display: flex;
+    justify-content: start;
+}
+.class-of-ticket .cot{
+    display: flex;
+    justify-content: start;
+}
+.people .select-people{
+    justify-content: start;
+    display: flex;
+}
+.date .date-of-fly{
+    display: flex;
+    justify-content: start;
+}
+.address .inputaddress{
+    display: flex;
+    justify-content: start;
+}
+.address-2 .address-2{
+    display: flex;
+    justify-content: start;
+}
+.city .city{
+    display: flex;
+    justify-content: start;
+}
+.distination .distination{
+    display: flex;
+    justify-content:start;
+}
+.phone-number .pn{
+    display: flex;
+    justify-content: start;
+}
+.payment payment{
+    display: flex;
+    justify-content: start;
+}
+
+.all-pay{
+    border: solid #eeeeee81;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.check{
+    display: flex;
+    justify-content: center;
+}
+.submit .btn {
+   width: 200px;
+   text-align: center;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   margin-left: 50px;
+   margin-top: 10px;
+   padding: 10px;
+   font-weight: 600;
+}

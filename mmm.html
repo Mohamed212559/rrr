@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this a test website">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/mmm.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <audio controls autoplay loop hidden>
+        <source src="Pharoah Ramses II.ogg">
+        <source src="Pharoah Ramses II.mpeg">
+        <source src="Pharoah Ramses II.mp3">
+    </audio>
+    <div class="sign">
+        <form action="" method="post">
+            <h1>Registration</h1>
+            <!-- model.backdrop fade show -->
+            <div class="input-field">
+                <input type="text" name="Username" id="Username" placeholder="Username" required
+                    autocomplete="username">
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="full name" id="full name" placeholder="Full name" required autocomplete="name">
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="input-field">
+                <input type="email" name="email" id="email" placeholder="example@domain.com" required
+                    autocomplete="email">
+                <i class='bx bxs-envelope'></i>
+            </div>
+
+            <div class="input-field">
+                <input type="password" name="password" id="password" placeholder="Enter strong password" required
+                    minlength="8" maxlength="30">
+                <i class='bx bxs-lock'></i>
+            </div>
+
+            <div class="input-field">
+                <input type="password" name="password" id="password2" placeholder="confirm password" required
+                    minlength="8" maxlength="30">
+                <i class='bx bxs-lock'></i>
+            </div>
+
+            <div class="male">
+                <label><input type="radio" name="gender" id="gender" required>male
+                </label>
+            </div>
+
+            <div class="female">
+                <label><input type="radio" name="gender" id="gender" required>female
+                </label>
+            </div>
+
+            <div class="check">
+                <label><input type="checkbox" name="checkbox" id="checkbox" required>I'm sure everything is okay</label>
+            </div>
+                <button type="submit" class="btn">Register
+                </button>
+        </form>
+    </div>
+</body>
+
+</html>

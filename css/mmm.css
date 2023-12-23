@@ -1,0 +1,85 @@
+*{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sign{
+   background-color: rgba(255, 255, 255, 0.1);
+   border-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    backdrop-filter: blur(10px);
+    margin: 0 10px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: aliceblue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/pyramid-sky-desert-ancient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+
+}
+.sign .btn{
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 60px yellow;
+}
+.sign .male{
+    color: white;
+margin-right: 13px;
+}
+.sign .female{
+    color: white;
+}
+.sign .check{
+    color: white;
+}
+.sign .input-field i{
+    position: absolute;
+    left: 75px;
+    border-radius: 10px;
+}
+@media (max-width: 1075px){
+    .sign .input-field{
+        width: 100%;
+        margin: 10px 0;
+        height: 100%;
+    }
+}
+h3{
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 100px 0 100px;
+    color-scheme: green;
+    color: black;
+    
+}
+h2{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    margin:-40px 100px -6px 100px;
+    color-scheme: green;
+    color: black;
+
+}

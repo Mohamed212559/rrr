@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ticket.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Book Now</title> -->
+</head>
+<body>
+  <!-- form -->
+  <div class="container">
+  <form action="#" method="get">
+      <!-- book input -->
+        <div class="book-ticket">
+          <label for="bookNow" class="booknow">Book Your Ticket</label>
+          <input type="text" class="form-control" id="Your name" placeholder="Your name"required autofocus>
+        </div>
+        <div class="class-of-ticket">
+          <label for="class-of-ticket" class="cot">Class Of Ticket</label>
+          <input type="text" class="form-control" id="Your name" placeholder="Your Ticket Class Is..."required autofocus>
+        </div>
+        <!-- people -->
+        <div class="people">
+        <label for="people" class="select-people">How Many Passanger:</label>
+        <input type="number" id="Passangers" name="Passangers" min="1" max="500" placeholder="It's..." required>
+        </div>
+        <!-- date -->
+        <div class="date">
+          <label for="date" class="date-of-fly">Your Flight Date:</label>
+          <input type="date" name="date" id="date">
+        </div>
+        <!-- address -->
+        <div class="address">
+          <label for="inputaddress" class="inputaddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          <!-- address 2 -->
+        </div>
+        <div class="address-2">
+          <label for="inputAddress2" class="address-2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <!-- city -->
+        <div class="city">
+          <label for="inputCity" class="city">City</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Your City" required autofocus>
+        </div>
+        <!-- distination -->
+        <div class="distination">
+        <label for="distination">Your Distination</label>
+        <select id="distination" class="distination">
+          <option selected>Going To...</option>
+          <option value="cairo">cairo</option>
+          <option value="aswan">Aswan</option>
+          <option value="new york City">New York City</option>
+          <option value="other">Other</option>
+        </select>
+
+        </div>
+        <!-- phone number -->
+        <div class="phone-number">
+          <label for="phone-number" class="pn">Your Phone Number</label>
+          <input type="tel" class="phone-number" id="phone-number">
+        </div>
+        <!-- payment -->
+        <div class="all-pay">
+
+          <div class="payment">
+            <span class="payment">Set The Price Tou Want</span>
+            <input type="text" class="payment" aria-label="Dollar amount (with dot and two decimal places)" placeholder="$0.00">
+          </div>
+          <!-- choose payment -->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-text">Choose Your Payment.</p>
+              <a href="#" class="card-link">Bank Card</a>
+              <a href="https://www.paypal.com" class="card-link">Paybal</a>
+            </div>
+            </div>
+          </div>
+          <!-- check box -->
+          <div class="check">
+            <input class="check" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">
+              All Good
+            </label>
+          </div>
+          <!-- submit -->
+        <div class="submit">
+          <button type="submit" class="btn">Let's Travel</button>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
